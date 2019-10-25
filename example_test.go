@@ -7,11 +7,10 @@ package zip_test
 import (
 	"bytes"
 	"fmt"
+	"github.com/jyd519/zip"
 	"io"
 	"log"
 	"os"
-
-	"github.com/yeka/zip"
 )
 
 func ExampleWriter() {
